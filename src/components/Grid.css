@@ -1,0 +1,31 @@
+.chess-board-conatiner{
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.chess-board{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid #111;
+}
+.chess-box.chess-board-onclick{
+    background-color: red;
+    transform: scale(1);
+    transform-origin: center;
+}
+.chess-box{
+    transition: 0.3s all ease-in-out;
+    width: calc(100% / 8);
+    padding-top: 80px;
+}
+.chess-board-black-box{
+
+    background-color: #111;
+}
+
+.chess-board-white-box{
+    background-color: #fff;
+}
